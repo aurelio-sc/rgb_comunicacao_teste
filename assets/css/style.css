@@ -181,18 +181,6 @@ header {
     .navigation .page:nth-child(6){
        display: none;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .navigation .page:nth-child(5){
-       display: none;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    body{
-        margin: 1rem 5%;
-    }
 
     .grid{
         grid-template-columns: calc(25% - 0.8rem) calc(25% - 0.8rem) calc(25% - 0.8rem) calc(25% - 0.8rem);
@@ -213,6 +201,24 @@ header {
     .about, .social{
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation .page:nth-child(5){
+       display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        margin: 1rem 5%;
+    }
+
+    .grid{
+        grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
+        gap: 2rem 1rem;
+    }
+   
 }
 
 @media only screen and (max-width: 450px) {
