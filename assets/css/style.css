@@ -50,6 +50,10 @@ header {
     width: 8rem;
 }
 
+.more{
+   display: none;
+}
+
 .grid{
     display: grid;
     grid-template-columns: calc(20% - 0.8rem) calc(20% - 0.8rem) calc(20% - 0.8rem) calc(20% - 0.8rem) calc(20% - 0.8rem);
@@ -156,3 +160,68 @@ header {
  .footer__text{
      font-size: 0.6rem;
  }
+
+ @media only screen and (max-width: 900px) {    
+    body{
+        margin: 1rem 10%;
+    }
+ }
+
+ @media only screen and (max-width: 800px) {
+    .navigation .page:nth-child(7){
+       display: none;
+    }
+
+    .more{
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navigation .page:nth-child(6){
+       display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation .page:nth-child(5){
+       display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        margin: 1rem 5%;
+    }
+
+    .grid{
+        grid-template-columns: calc(25% - 0.8rem) calc(25% - 0.8rem) calc(25% - 0.8rem) calc(25% - 0.8rem);
+        gap: 2rem 1rem;
+    }
+
+    .footer__upper, .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+
+     .footer__upper{
+         gap: 0.3rem;
+     }
+
+    .about, .social{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    header{
+        flex-direction: column;
+    }
+
+    .phone{
+        align-self: center;
+        padding: 0.3rem 0;
+    }
+}
