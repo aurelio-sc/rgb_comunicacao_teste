@@ -7,6 +7,16 @@ O layout deve ser responsivo e sem a utilização de frameworks como bootstrap.
 Opcional:
 Ao clicar na imagem trazer a mesma em modal com uma descrição vinda do banco de dados.
 
+# Feito:
+- [x] Layout responsivo;
+- [x] Banco de dados (assets/db)
+- [ ] Importação do banco de dados. Alternativa criada:
+    * Criação do arquivo data.json com as informações do banco de dados.
+    * Upload do conteúdo de data.js para https://api.jsonbin.io/b/621bb87325fb1b26b18985f6.
+    * Importação dos dados do arquivo .jason.
+        * A intenção foi reproduzir a importação que deveria ser feita do banco de dados original.
+        * É uma solução paliativa até conversar com minha equipe na RGB Comunicação e buscar orientação de como resolver o problema de forma definitiva.
+        *Todas as funcionalidades exigidas estão presentes.
 
 # Resultado Esperado
 <div align="center">
