@@ -13,12 +13,14 @@ Ao clicar na imagem trazer a mesma em modal com uma descrição vinda do banco d
 - [ ] Importação do banco de dados. Alternativa criada:
     * Criação do arquivo data.json com as informações do banco de dados.
     * Upload do conteúdo de data.json para https://api.jsonbin.io/b/621bb87325fb1b26b18985f6.
-    * Importação dos dados do arquivo .json.
+    * Importação dos dados do arquivo JSON.
         * A intenção foi reproduzir a importação que deveria ser feita do banco de dados original.
         * É uma solução paliativa até conversar com minha equipe na RGB Comunicação e buscar orientação de como resolver o problema de forma definitiva.
-        * Todas as funcionalidades exigidas estão presentes.
+        *Todas as funcionalidades exigidas estão presentes, inclusive a Modal aparecer com dados vindos de um arquivo externo (neste caso, um JSON).
+- [x] Depoly: https://aurelio-sc.github.io/rgb_comunicacao_teste/.
 
 # Resultado Esperado
+"Ignorar os botões de social media abaixo de cada foto."
 <div align="center">
     <img src="./assets/img/layout01.jpg">
 </div>
