@@ -16,7 +16,7 @@ Ao clicar na imagem trazer a mesma em modal com uma descrição vinda do banco d
     * Importação dos dados do arquivo JSON.
         * A intenção foi reproduzir a importação que deveria ser feita do banco de dados original.
         * É uma solução paliativa até conversar com minha equipe na RGB Comunicação e buscar orientação de como resolver o problema de forma definitiva.
-        *Todas as funcionalidades exigidas estão presentes, inclusive a Modal aparecer com dados vindos de um arquivo externo (neste caso, um JSON).
+        * Todas as funcionalidades exigidas estão presentes, inclusive a Modal aparecer com dados vindos de um arquivo externo (neste caso, um JSON).
 - [x] Depoly: https://aurelio-sc.github.io/rgb_comunicacao_teste/.
 
 # Resultado Esperado
