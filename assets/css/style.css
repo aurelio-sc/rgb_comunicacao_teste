@@ -226,11 +226,19 @@ width: 40%;
     .about, .social{
         width: 100%;
     }
+
+    .modalContent{
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .navigation .page:nth-child(5){
        display: none;
+    }
+
+    .modalContent{
+        width: 60%;
     }
 }
 
@@ -242,6 +250,10 @@ width: 40%;
     .grid{
         grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
         gap: 2rem 1rem;
+    }
+   
+    .modalContent{
+        width: 80%;
     }
    
 }
