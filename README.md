@@ -18,9 +18,9 @@ Ao clicar na imagem trazer a mesma em modal com uma descrição vinda do banco d
         * É uma solução paliativa até conversar com minha equipe na RGB Comunicação e buscar orientação de como resolver o problema de forma definitiva.
         * Todas as funcionalidades exigidas estão presentes, inclusive a Modal aparecer com dados vindos de um arquivo externo (neste caso, um JSON).
 - [x] Depoly: https://aurelio-sc.github.io/rgb_comunicacao_teste/.
-
+- [x] Conseguir e emprego. CHECKED! Início: 14/03/2022
 # Resultado Esperado
 "Ignorar os botões de social media abaixo de cada foto."
 <div align="center">
     <img src="./assets/img/layout01.jpg">
-</div>
+</div>/
